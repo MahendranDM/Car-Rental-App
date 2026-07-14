@@ -38,7 +38,7 @@ const NavBar = () => {
                         </li>
 
                         <li className="nav-item mx-3">
-                            <Link className="nav-link text-white fw-bold fs-5" to="/">
+                            <Link className="nav-link text-white fw-bold fs-5" to="/cars">
                                 🚗 View Cars
                             </Link>
                         </li>
