@@ -7,6 +7,7 @@ import AddCar from './components/AddCar'
 import ViewCars from './components/ViewCars'
 import NavBar from './components/NavBar'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './components/Home'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,11 +16,9 @@ function App() {
     <>
 <BrowserRouter>
 <Routes>
-
-
-<Route path='/add-car' element={<AddCar/>}/>
-<Route path='/' element={<ViewCars/>}/>
-
+ <Route path="/" element={<Home/>} />
+    <Route path="/add-car" element={<AddCar />} />
+    <Route path="/cars" element={<ViewCars />} />
 
 </Routes>
 
