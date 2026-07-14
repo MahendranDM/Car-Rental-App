@@ -7,7 +7,6 @@ const Home = () => {
     <div>
    
 
-      {/* Hero Section */}
       <div
         className="text-white text-center d-flex align-items-center"
         style={{
@@ -36,7 +35,7 @@ const Home = () => {
           </p>
 
           <div className="mt-4">
-            <Link to="/add-car" className="btn btn-warning btn-lg me-3">
+            <Link to="/add-car" className="btn btn-outline-light btn-lg me-3">
               Add Car
             </Link>
 
@@ -47,7 +46,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Features */}
+
       <div className="container my-5">
         <h2 className="text-center fw-bold mb-5">
           Why Choose Our Car Rental System?
@@ -112,7 +111,6 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Call to Action */}
       <div className="bg-dark text-white py-5">
         <div className="container text-center">
           <h2 className="fw-bold">
@@ -129,7 +127,6 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Footer */}
       <footer className="bg-black text-white text-center py-3">
         <p className="mb-0">
           © 2026 Car Rental Management System | Developed with React & Bootstrap
